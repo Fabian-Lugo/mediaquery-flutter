@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:mediaquery/listview.dart';
 // import 'package:mediaquery/layoutbuildert.dart';
-import 'package:mediaquery/responsive.dart';
+//import 'package:mediaquery/responsive.dart';
  
 void main() => runApp(MyApp());
  
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
 
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Responsive()
+      home: ListViewTest()
     );
   }
 }
