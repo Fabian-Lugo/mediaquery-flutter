@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:mediaquery/card.dart';
+import 'package:mediaquery/scrolls.dart';
+//import 'package:mediaquery/card.dart';
 //import 'package:mediaquery/listtile.dart';
 //import 'package:mediaquery/gridview.dart';
 //import 'package:mediaquery/listview.dart';
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
 
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: CardsTest()
+      home: ClassScrolls()
     );
   }
 }
