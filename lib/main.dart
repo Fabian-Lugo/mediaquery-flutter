@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:mediaquery/gridview.dart';
 import 'package:mediaquery/listview.dart';
 // import 'package:mediaquery/layoutbuildert.dart';
 //import 'package:mediaquery/responsive.dart';
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
 
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: ListViewTest()
+      home: GridViewTest()
     );
   }
 }
